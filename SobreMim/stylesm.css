@@ -1,0 +1,95 @@
+h1 {
+    color: #000000;
+    font-size:  2.5em; /* 40/16=2.5 */
+}
+
+h2 {
+    font-size: 1.75em; /* 28/16=1.75 */
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.3em;
+    text-align: justify;
+}
+p::first-li {
+    font-size: 1.17em;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-style: italic;
+}
+hr {
+    border-color: #c0262c;
+}
+body {
+    font-family: Helvetica, arial, sans-serif;
+    font-size: 95%;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;  
+    background: rgb(63, 197, 221);
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    left: 0;
+    
+}
+
+nav ul li {
+    
+    width: 100%;
+    
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration:none;  
+}
+
+img  {
+    border-radius: 10%;
+    background-position: center;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+h4 {
+    font-size: 1.20em;
+}
+
+.contato2 {
+    position:fixed;
+    bottom:0;
+    right:0;
+    width:75px;
+    height:75px;
+    border-radius:50%;
+    background:url(Contato1.jpg);
+    transition: all .7s;
+}
+
+.contato2:hover {
+    width:165px;
+    height:165px;
+
+}
+
+.contato2 a {
+    font-size: 1.10em;
+    font-size: 1.10em;
+    color: rgb(20, 100, 114);
+    text-decoration:none;  
+}
+
+footer{
+    padding: 0.5% ;
+    background: #333;
+    color: #FFFFFF;
+}
