@@ -1,0 +1,42 @@
+.inicio{
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.inicio img{
+    display: block;
+    height: 100vh;
+    width: 100%;
+    z-index: 50;
+}
+
+nav ul{
+    display: flex;
+    margin: 0;
+    list-style: none;
+    background: #0D1ECE;
+    background: -moz-linear-gradient(left, #0D1ECE 0%, #FF8600 68%, #C50303 100%);
+    background: -webkit-linear-gradient(left, #0D1ECE 0%, #FF8600 68%, #C50303 100%);
+    background: linear-gradient(to right, #0D1ECE 0%, #FF8600 68%, #C50303 100%);
+    height: 60px;
+}
+nav ul li{
+   
+    list-style: none;
+    width: 100%;
+    
+}
+
+nav ul a {
+    list-style: none;
+    color: #FFF;
+    text-decoration:none;  
+
+}
+
+h1{
+    font-size: 1.20em;
+    margin-right: 400px;
+}
